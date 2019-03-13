@@ -1,12 +1,13 @@
 public class Callout {
     
-    public static HttpResponse getEmails() {
+    public static HttpResponse getEmails(String customer_id) {
         Http http = new Http();
         HttpRequest request = new HttpRequest();
-        request.setEndpoint('http://localhost:3000/getEmails/1');
+        request.setEndpoint('https://38b788fd.ngrok.io/getEmails/' + customer_id);
         request.setMethod('GET');
 
         HttpResponse response = http.send(request);
+        System.debug(response.getStatusCode());
 
         if(response.getStatusCode() == 200) {
             Map<String, Object> results = (Map<String, Object>) JSON.deserializeUntyped(response.getBody());
@@ -17,4 +18,5 @@ public class Callout {
         }
         return response;
     }
+
 }

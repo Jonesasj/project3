@@ -10,6 +10,11 @@ let db = new sqlite3.Database('./test.db', (err) => {
     }
     console.log('successfully connected to the database');
 });
+app.use('/', (req, res, next) => {
+    console.log('request');
+    console.log(req.originalUrl);
+    next();
+});
 
 app.get('/getEmails/:customer_id', (req, res) => {
     var sql = `SELECT * FROM email_log WHERE customer_id=?`;
