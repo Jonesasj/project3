@@ -14,13 +14,16 @@ let db = new sqlite3.Database('./test.db', (err) => {
 app.get('/getEmails/:customer_id', (req, res) => {
     var sql = `SELECT * FROM email_log WHERE customer_id=?`;
     var customer_id = req.params.customer_id;
-    var results = [];
+    var results = {
+        emails: []
+    };
+
     db.all(sql, [customer_id], (err, row) => {
         if(err) {
             throw err;
         }
         row.forEach((row) => {
-            results.push(row);
+            results.emails.push(row);
             console.log(row);
         });
         res.json(results);

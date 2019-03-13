@@ -168,14 +168,14 @@
     [
         "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/classes/CalloutTest.cls",
         {
-            "state": "u",
             "sourcePath": "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/classes/CalloutTest.cls",
             "isDirectory": false,
+            "size": 926,
+            "modifiedTime": 1552474122585,
+            "changeTime": 1552474122585,
+            "contentHash": "962cb3241e931f46314b13ddf7ca097a85081aba",
             "isMetadataFile": false,
-            "size": 944,
-            "modifiedTime": 1552474770990,
-            "changeTime": 1552474770990,
-            "contentHash": "982bc84465bdd7e57de067783499ed512b24daec"
+            "state": "u"
         }
     ],
     [
@@ -194,14 +194,14 @@
     [
         "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/classes",
         {
+            "state": "u",
             "sourcePath": "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/classes",
             "isDirectory": true,
+            "isMetadataFile": false,
             "size": 192,
             "modifiedTime": 1552474216578,
             "changeTime": 1552474216578,
-            "contentHash": "bb3e3d5bcea9c91a3faf15c03a9f28ff7046d30d",
-            "isMetadataFile": false,
-            "state": "u"
+            "contentHash": "bb3e3d5bcea9c91a3faf15c03a9f28ff7046d30d"
         }
     ],
     [
@@ -220,27 +220,27 @@
     [
         "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/classes/Callout.cls",
         {
+            "state": "u",
             "sourcePath": "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/classes/Callout.cls",
             "isDirectory": false,
+            "isMetadataFile": false,
             "size": 670,
             "modifiedTime": 1552474505774,
             "changeTime": 1552474505774,
-            "contentHash": "bff66790d3b76a75108c3446b081c1616c53895c",
-            "isMetadataFile": false,
-            "state": "u"
+            "contentHash": "bff66790d3b76a75108c3446b081c1616c53895c"
         }
     ],
     [
         "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/classes/Callout.cls-meta.xml",
         {
+            "state": "u",
             "sourcePath": "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/classes/Callout.cls-meta.xml",
             "isDirectory": false,
+            "isMetadataFile": true,
             "size": 185,
             "modifiedTime": 1552474216578,
             "changeTime": 1552474216578,
-            "contentHash": "853ffc1569532b4011941cbb91c663e03bf0858e",
-            "isMetadataFile": true,
-            "state": "u"
+            "contentHash": "853ffc1569532b4011941cbb91c663e03bf0858e"
         }
     ]
 ]
