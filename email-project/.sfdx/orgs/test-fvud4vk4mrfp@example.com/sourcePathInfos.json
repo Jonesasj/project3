@@ -1,0 +1,116 @@
+[
+    [
+        "/Users/alex.jones/Documents/tasks/project3/email-project/force-app",
+        {
+            "state": "n",
+            "sourcePath": "/Users/alex.jones/Documents/tasks/project3/email-project/force-app",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 96,
+            "modifiedTime": 1552468996275,
+            "changeTime": 1552468996275,
+            "contentHash": "b28b7af69320201d1cf206ebf28373980add1451",
+            "isWorkspace": false,
+            "isArtifactRoot": true
+        }
+    ],
+    [
+        "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main",
+        {
+            "state": "n",
+            "sourcePath": "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 96,
+            "modifiedTime": 1552468996275,
+            "changeTime": 1552468996275,
+            "contentHash": "7505d64a54e061b7acd54ccd58b49dc43500b635",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default",
+        {
+            "state": "u",
+            "sourcePath": "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 160,
+            "modifiedTime": 1552470364763,
+            "changeTime": 1552470364763,
+            "contentHash": "5a996f4b1a268b2d61fc39b1bc2d103b1fd47caf"
+        }
+    ],
+    [
+        "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/aura",
+        {
+            "state": "n",
+            "sourcePath": "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/aura",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 64,
+            "modifiedTime": 1552468996275,
+            "changeTime": 1552468996275,
+            "contentHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/lwc",
+        {
+            "state": "n",
+            "sourcePath": "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/lwc",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 128,
+            "modifiedTime": 1552469004040,
+            "changeTime": 1552469004040,
+            "contentHash": "a973ac1b5be0e216b2a2db1b82ae5ba97f4086f4",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/alex.jones/Documents/tasks/project3/email-project",
+        {
+            "state": "n",
+            "sourcePath": "/Users/alex.jones/Documents/tasks/project3/email-project",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 288,
+            "modifiedTime": 1552469001310,
+            "changeTime": 1552469001310,
+            "contentHash": "482aba1731d0a586e52ba05892f68b26d69ba4fe",
+            "isWorkspace": true,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/remoteSiteSettings/email_http.remoteSite-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/remoteSiteSettings/email_http.remoteSite-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 256,
+            "modifiedTime": 1552470364764,
+            "changeTime": 1552470364764,
+            "contentHash": "9769d5a29bd0a5655e16a9f302e39390c2f19f36"
+        }
+    ],
+    [
+        "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/remoteSiteSettings",
+        {
+            "state": "u",
+            "sourcePath": "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/remoteSiteSettings",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 96,
+            "modifiedTime": 1552470364764,
+            "changeTime": 1552470364764,
+            "contentHash": "e0257e29c56101fa74f4bc388fc6fa7a7d0d2510"
+        }
+    ]
+]
