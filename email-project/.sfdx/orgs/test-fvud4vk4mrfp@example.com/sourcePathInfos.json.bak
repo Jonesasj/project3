@@ -103,14 +103,14 @@
     [
         "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/remoteSiteSettings",
         {
-            "state": "u",
             "sourcePath": "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/remoteSiteSettings",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 160,
             "modifiedTime": 1552554880300,
             "changeTime": 1552554880300,
-            "contentHash": "ec16d16bde769abec9dd46f390ba5bf1df8562ae"
+            "contentHash": "ec16d16bde769abec9dd46f390ba5bf1df8562ae",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -168,14 +168,14 @@
     [
         "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/classes/CalloutTest.cls",
         {
+            "state": "u",
             "sourcePath": "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/classes/CalloutTest.cls",
             "isDirectory": false,
-            "size": 944,
-            "modifiedTime": 1552478432005,
-            "changeTime": 1552474770990,
-            "contentHash": "982bc84465bdd7e57de067783499ed512b24daec",
             "isMetadataFile": false,
-            "state": "u"
+            "size": 967,
+            "modifiedTime": 1552555465806,
+            "changeTime": 1552555465806,
+            "contentHash": "c7d2c4f90c502a348fcab935d23efeab96ec7ec5"
         }
     ],
     [
@@ -220,14 +220,14 @@
     [
         "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/classes/Callout.cls",
         {
+            "state": "u",
             "sourcePath": "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/classes/Callout.cls",
             "isDirectory": false,
-            "size": 1688,
-            "modifiedTime": 1552554677277,
-            "changeTime": 1552554677277,
-            "contentHash": "fdc6438e12e6d8b33fb2568082ab987ec3effc59",
             "isMetadataFile": false,
-            "state": "u"
+            "size": 1680,
+            "modifiedTime": 1552555026493,
+            "changeTime": 1552555026493,
+            "contentHash": "cb5611586e4e72345dc3a7cc62ec04e1e8a88e7e"
         }
     ],
     [
@@ -259,14 +259,14 @@
     [
         "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/remoteSiteSettings/ngrok_email_2.remoteSite-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/remoteSiteSettings/ngrok_email_2.remoteSite-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 260,
             "modifiedTime": 1552554880300,
             "changeTime": 1552554880300,
-            "contentHash": "c5554deb4cbc2619ff1567881866d129afa99ef3"
+            "contentHash": "c5554deb4cbc2619ff1567881866d129afa99ef3",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ]
 ]

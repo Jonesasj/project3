@@ -13,7 +13,7 @@ public class CalloutTest {
 
         Test.setMock(HttpCalloutMock.class, mock);
 
-        HttpResponse result = Callout.getEmails();
+        HttpResponse result = Callout.callout('/getEmails/', 'GET', '1');
 
         System.assertNotEquals(null, result, 'Callout returned null response');
 
