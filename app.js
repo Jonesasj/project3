@@ -19,7 +19,7 @@ app.use('/', (req, res, next) => {
 app.get('/getEmails', (req, res) => {
     var sql = `SELECT * FROM email_log`;
     var results = {
-        emails: []
+        dataList: []
     };
 
     db.all(sql, [], (err, row) => {
@@ -27,7 +27,7 @@ app.get('/getEmails', (req, res) => {
             throw err;
         }
         row.forEach((row) => {
-            results.emails.push(row);
+            results.dataList.push(row);
             console.log(row);
         });
         res.json(results);
@@ -38,7 +38,7 @@ app.get('/getEmails/:customer_id', (req, res) => {
     var sql = `SELECT * FROM email_log WHERE customer_id=?`;
     var customer_id = req.params.customer_id;
     var results = {
-        emails: []
+        dataList: []
     };
 
     db.all(sql, [customer_id], (err, row) => {
@@ -46,7 +46,7 @@ app.get('/getEmails/:customer_id', (req, res) => {
             throw err;
         }
         row.forEach((row) => {
-            results.emails.push(row);
+            results.dataList.push(row);
             console.log(row);
         });
         res.json(results);
@@ -59,7 +59,7 @@ app.get('/getEmailMessage/:message_id', (req, res) => {
     var sql = `SELECT * FROM email_log WHERE message_id=?`;
     var message_id = req.params.message_id;
     var results = {
-        emails: []
+        dataList: []
     };
 
     db.all(sql, [message_id], (err, row) => {
@@ -67,7 +67,7 @@ app.get('/getEmailMessage/:message_id', (req, res) => {
             throw err;
         }
         row.forEach((row) => {
-            results.emails.push(row);
+            results.dataList.push(row);
             console.log(row);
         });
         res.json(results);
@@ -78,14 +78,14 @@ app.get('/getEmailEvents/', (req, res) => {
     console.log('getEmailEvents');
     var sql = `SELECT * FROM email_event_log`;
     var results = {
-        emails: []
+        dataList: []
     };
     db.all(sql, [], (err, row) => {
         if(err) {
             throw err;
         }
         row.forEach((row) => {
-            results.emails.push(row);
+            results.dataList.push(row);
             console.log(row);
         });
         console.log(results);
@@ -98,14 +98,14 @@ app.get('/getEmailEvents/:event_id', (req, res) => {
     var sql = `SELECT * FROM email_event_log WHERE event_id=?`;
     var event_id = req.params.event_id;
     var results = {
-        emails: []
+        dataList: []
     };
     db.all(sql, [event_id], (err, row) => {
         if(err) {
             throw err;
         }
         row.forEach((row) => {
-            results.emails.push(row);
+            results.dataList.push(row);
             console.log(row);
         });
         console.log(results);
