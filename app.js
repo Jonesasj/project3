@@ -16,6 +16,24 @@ app.use('/', (req, res, next) => {
     next();
 });
 
+app.get('/getEmails', (req, res) => {
+    var sql = `SELECT * FROM email_log`;
+    var results = {
+        emails: []
+    };
+
+    db.all(sql, [], (err, row) => {
+        if(err) {
+            throw err;
+        }
+        row.forEach((row) => {
+            results.emails.push(row);
+            console.log(row);
+        });
+        res.json(results);
+    })
+})
+
 app.get('/getEmails/:customer_id', (req, res) => {
     var sql = `SELECT * FROM email_log WHERE customer_id=?`;
     var customer_id = req.params.customer_id;
@@ -37,22 +55,60 @@ app.get('/getEmails/:customer_id', (req, res) => {
 
 app.get('/getEmailMessage/:message_id', (req, res) => {
 
-    res.send('/getEmailMessage/:message_id');
-});
-
-app.get('/getEmailEvents/:message_id', (req, res) => {
     console.log('here');
-    var sql = `SELECT * FROM email_event_log WHERE message_id=?`;
+    var sql = `SELECT * FROM email_log WHERE message_id=?`;
     var message_id = req.params.message_id;
-    var results = [];
+    var results = {
+        emails: []
+    };
+
     db.all(sql, [message_id], (err, row) => {
         if(err) {
             throw err;
         }
         row.forEach((row) => {
-            results.push(row);
+            results.emails.push(row);
             console.log(row);
         });
+        res.json(results);
+    });
+});
+
+app.get('/getEmailEvents/', (req, res) => {
+    console.log('getEmailEvents');
+    var sql = `SELECT * FROM email_event_log`;
+    var results = {
+        emails: []
+    };
+    db.all(sql, [], (err, row) => {
+        if(err) {
+            throw err;
+        }
+        row.forEach((row) => {
+            results.emails.push(row);
+            console.log(row);
+        });
+        console.log(results);
+        res.json(results);
+    });
+});
+
+app.get('/getEmailEvents/:event_id', (req, res) => {
+    console.log('getEmailEvents/:event_id');
+    var sql = `SELECT * FROM email_event_log WHERE event_id=?`;
+    var event_id = req.params.event_id;
+    var results = {
+        emails: []
+    };
+    db.all(sql, [event_id], (err, row) => {
+        if(err) {
+            throw err;
+        }
+        row.forEach((row) => {
+            results.emails.push(row);
+            console.log(row);
+        });
+        console.log(results);
         res.json(results);
     });
 });

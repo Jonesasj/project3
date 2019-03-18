@@ -28,6 +28,12 @@ CREATE TABLE email_event_log(
 INSERT INTO email_log (id, message_id, customer_id, email_to, subject, has_attachment, latest_event, latest_event_ts)
 VALUES (1, '1', 1, 'alexsjones@protonmail.com', 'test', 0, 'Delivered', '2019-02-02 12:00:00');
 
+INSERT INTO email_log (id, message_id, customer_id, email_to, subject, has_attachment, latest_event, latest_event_ts)
+VALUES (2, '2', 1, 'alexsjones@protonmail.com', 'test', 0, 'Delivered', '2019-02-02 12:00:00');
+
+INSERT INTO email_log (id, message_id, customer_id, email_to, subject, has_attachment, latest_event, latest_event_ts)
+VALUES (3, '3', 2, 'alexsjones@protonmail.com', 'test', 0, 'Delivered', '2019-02-02 12:00:00');
+
 INSERT INTO email_event_log(id, message_id, event_id, event, event_ts)
 VALUES (1, '1', '1', 'delivered', '2019-02-02 12:00:00');
 
