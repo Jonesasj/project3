@@ -2,7 +2,6 @@ import { LightningElement, api } from 'lwc';
 
 export default class EmailTile extends LightningElement {
     @api email;
-    @api openmodel=false;
 
     handleClick(event) {
         console.log(event.target.label);

@@ -25,12 +25,14 @@ export default class EmailLog extends LightningElement {
         console.log(this.modal);
         this.modal = true;
     }
-    closeModal() {
-        this.modal = false;
-    } 
+    
     saveMethod() {
         alert('save method invoked');
         this.closeModal();
+    }
+
+    handleCancel() {
+        this.modal=false;
     }
 
 }

@@ -11,4 +11,9 @@ public with sharing class EmailController {
     public static List<email_log__x> getAllEmails(){
       return [SELECT ExternalId, email_to__c, latest_event__c, subject__c, sent_ts__c FROM email_log__x];
     }
+
+    @AuraEnabled(Cacheable=true)
+    public static List<events__x> getAllEvents() {
+      return [SELECT ExternalId, event__c, event_ts__c, message_id__c FROM events__x];
+    }
 }

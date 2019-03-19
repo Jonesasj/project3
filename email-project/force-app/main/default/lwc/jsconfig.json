@@ -2,7 +2,14 @@
     "compilerOptions": {
         "experimentalDecorators": true,
         "baseUrl": ".",
-        "paths": {}
+        "paths": {
+            "c/email-log": [
+                "emailLog/emailLog.js"
+            ],
+            "c/email-tile": [
+                "emailTile/emailTile.js"
+            ]
+        }
     },
     "include": [
         "**/*",
