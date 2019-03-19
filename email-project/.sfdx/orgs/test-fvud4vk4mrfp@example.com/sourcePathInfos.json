@@ -32,14 +32,14 @@
     [
         "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default",
         {
-            "state": "u",
             "sourcePath": "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 384,
             "modifiedTime": 1552920594412,
             "changeTime": 1552920594412,
-            "contentHash": "711db38f9d58a19e95ea079d60dcc51c1197f6e3"
+            "contentHash": "711db38f9d58a19e95ea079d60dcc51c1197f6e3",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -62,10 +62,10 @@
         {
             "sourcePath": "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/lwc",
             "isDirectory": true,
-            "size": 160,
-            "modifiedTime": 1552556200809,
-            "changeTime": 1552556200809,
-            "contentHash": "7592bede97a1d37f3b6d8af396ddbfd8755ca0fa",
+            "size": 192,
+            "modifiedTime": 1552923573742,
+            "changeTime": 1552923573742,
+            "contentHash": "57ae5ac5870e3767750be77212fd3a9a185917fc",
             "isMetadataFile": false,
             "state": "u",
             "isWorkspace": false
@@ -104,10 +104,10 @@
         {
             "sourcePath": "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/remoteSiteSettings",
             "isDirectory": true,
-            "size": 160,
-            "modifiedTime": 1552554880300,
-            "changeTime": 1552554880300,
-            "contentHash": "ec16d16bde769abec9dd46f390ba5bf1df8562ae",
+            "size": 192,
+            "modifiedTime": 1552921247654,
+            "changeTime": 1552921247654,
+            "contentHash": "c58e75065f65fe6493423f583ac6404d1915ed3d",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -180,14 +180,14 @@
     [
         "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/profiles/Admin.profile-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/profiles/Admin.profile-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 27250,
             "modifiedTime": 1552920594468,
             "changeTime": 1552920594468,
-            "contentHash": "94b2ae1c9e9dc9ff1820bd8094bdc22879a9f1d9"
+            "contentHash": "94b2ae1c9e9dc9ff1820bd8094bdc22879a9f1d9",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
@@ -206,14 +206,14 @@
     [
         "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/profiles",
         {
-            "state": "u",
             "sourcePath": "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/profiles",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 192,
             "modifiedTime": 1552920594475,
             "changeTime": 1552920594475,
-            "contentHash": "9c367b0e719eb8c48c5b0d9cbfb5f580a4bd6717"
+            "contentHash": "9c367b0e719eb8c48c5b0d9cbfb5f580a4bd6717",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -221,10 +221,10 @@
         {
             "sourcePath": "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/classes/Callout.cls",
             "isDirectory": false,
-            "size": 1680,
-            "modifiedTime": 1552555026493,
-            "changeTime": 1552555026493,
-            "contentHash": "cb5611586e4e72345dc3a7cc62ec04e1e8a88e7e",
+            "size": 1686,
+            "modifiedTime": 1552924567832,
+            "changeTime": 1552924567832,
+            "contentHash": "a3c603da1b91d2550d9489555bc763a8f1fa4931",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -274,8 +274,8 @@
             "sourcePath": "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/lwc/emailLog",
             "isDirectory": true,
             "size": 160,
-            "modifiedTime": 1552556200810,
-            "changeTime": 1552556200810,
+            "modifiedTime": 1552987485238,
+            "changeTime": 1552987485238,
             "contentHash": "6e4e9d952c2a249499569fa781aea6b3ccc52afb",
             "isMetadataFile": false,
             "state": "u"
@@ -284,14 +284,14 @@
     [
         "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/lwc/emailLog/emailLog.html",
         {
+            "state": "u",
             "sourcePath": "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/lwc/emailLog/emailLog.html",
             "isDirectory": false,
-            "size": 162,
-            "modifiedTime": 1552559293584,
-            "changeTime": 1552559293584,
-            "contentHash": "a534bad25fdf26c7d82532e2e50cb8260022835d",
             "isMetadataFile": false,
-            "state": "u"
+            "size": 2781,
+            "modifiedTime": 1552996105312,
+            "changeTime": 1552996105312,
+            "contentHash": "8f796285ad3d6d706d6cdcb0ad1c3a403d0d65ae"
         }
     ],
     [
@@ -299,10 +299,10 @@
         {
             "sourcePath": "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/lwc/emailLog/emailLog.js",
             "isDirectory": false,
-            "size": 123,
-            "modifiedTime": 1552559393820,
-            "changeTime": 1552559393820,
-            "contentHash": "470e215dcecbad9ab0e2f07207f6b3cc905aa6b3",
+            "size": 804,
+            "modifiedTime": 1552995920362,
+            "changeTime": 1552995920362,
+            "contentHash": "02279702c75770db8fb79e64d79afe29c122c019",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -752,27 +752,27 @@
     [
         "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/objects",
         {
-            "state": "u",
             "sourcePath": "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/objects",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 160,
             "modifiedTime": 1552920594409,
             "changeTime": 1552920594409,
-            "contentHash": "a0bf2956358f7533b0ae8de93e4c51cf3f6748f6"
+            "contentHash": "a0bf2956358f7533b0ae8de93e4c51cf3f6748f6",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/objects/Account/fields",
         {
-            "state": "u",
             "sourcePath": "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/objects/Account/fields",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 1056,
             "modifiedTime": 1552920594393,
             "changeTime": 1552920594393,
-            "contentHash": "9fc82ad2392613d72960efc52b35dd188486d86b"
+            "contentHash": "9fc82ad2392613d72960efc52b35dd188486d86b",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -793,10 +793,10 @@
         {
             "sourcePath": "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/classes/EmailController.cls",
             "isDirectory": false,
-            "size": 261,
-            "modifiedTime": 1552565144763,
-            "changeTime": 1552565144763,
-            "contentHash": "493402dea7ae91f433b8fd61f0a92b36866714ce",
+            "size": 552,
+            "modifiedTime": 1552988698747,
+            "changeTime": 1552988698747,
+            "contentHash": "0216ffc8ffecf7e19aaa6aa8b22b971378b0e2cd",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -845,10 +845,10 @@
         {
             "sourcePath": "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/classes/EmailDataSourceConnection.cls",
             "isDirectory": false,
-            "size": 3856,
-            "modifiedTime": 1552920371206,
-            "changeTime": 1552920371206,
-            "contentHash": "a50292c2f6f6a89c2cdb46ec67f698fe9ad0ce6e",
+            "size": 3769,
+            "modifiedTime": 1552987001353,
+            "changeTime": 1552987001353,
+            "contentHash": "1bfa4c5824a8463d5f50a9caebd022af63116f91",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -895,391 +895,469 @@
     [
         "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/dataSources/email_api.dataSource-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/dataSources/email_api.dataSource-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 413,
             "modifiedTime": 1552920594388,
             "changeTime": 1552920594388,
-            "contentHash": "5333d11cd77fd629d8d7d271ea4a6123203af02a"
+            "contentHash": "5333d11cd77fd629d8d7d271ea4a6123203af02a",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/objects/Account/fields/GradwellId__c.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/objects/Account/fields/GradwellId__c.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 409,
             "modifiedTime": 1552920594393,
             "changeTime": 1552920594393,
-            "contentHash": "b850862524e1dc93baa8c407222f091d9a5d641b"
+            "contentHash": "b850862524e1dc93baa8c407222f091d9a5d641b",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/objects/email_log__x/email_log__x.object-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/objects/email_log__x/email_log__x.object-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 1533,
             "modifiedTime": 1552920594401,
             "changeTime": 1552920594401,
-            "contentHash": "a086a0de161bac2d4a47f8bc130cf7d11e25fec4"
+            "contentHash": "a086a0de161bac2d4a47f8bc130cf7d11e25fec4",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/objects/email_log__x/fields/customer_id__c.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/objects/email_log__x/fields/customer_id__c.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 687,
             "modifiedTime": 1552920594402,
             "changeTime": 1552920594402,
-            "contentHash": "0636769cbdc1a7c9144c438e85d3787f9b3c9fea"
+            "contentHash": "0636769cbdc1a7c9144c438e85d3787f9b3c9fea",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/objects/email_log__x/fields/email__c.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/objects/email_log__x/fields/email__c.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 547,
             "modifiedTime": 1552920594402,
             "changeTime": 1552920594402,
-            "contentHash": "f3b6308c867c0adcaa315a5fbd31f38f4725b347"
+            "contentHash": "f3b6308c867c0adcaa315a5fbd31f38f4725b347",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/objects/email_log__x/fields/email_to__c.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/objects/email_log__x/fields/email_to__c.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 560,
             "modifiedTime": 1552920594402,
             "changeTime": 1552920594402,
-            "contentHash": "238f0dcd6999d74865ff62b192c6641cfaed84e8"
+            "contentHash": "238f0dcd6999d74865ff62b192c6641cfaed84e8",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/objects/email_log__x/fields/has_attachment__c.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/objects/email_log__x/fields/has_attachment__c.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 544,
             "modifiedTime": 1552920594402,
             "changeTime": 1552920594402,
-            "contentHash": "9bf2e98160cb642fb4b727c4293d2a5166c09607"
+            "contentHash": "9bf2e98160cb642fb4b727c4293d2a5166c09607",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/objects/email_log__x/fields/latest_event__c.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/objects/email_log__x/fields/latest_event__c.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 576,
             "modifiedTime": 1552920594403,
             "changeTime": 1552920594403,
-            "contentHash": "d95fcdcfccea4a6c448a3d386c34d4dfd02d2ca9"
+            "contentHash": "d95fcdcfccea4a6c448a3d386c34d4dfd02d2ca9",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/objects/email_log__x/fields/latest_event_ts__c.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/objects/email_log__x/fields/latest_event_ts__c.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 588,
             "modifiedTime": 1552920594403,
             "changeTime": 1552920594403,
-            "contentHash": "5986278bf41304ed8d84c5acbab56b55339aeb92"
+            "contentHash": "5986278bf41304ed8d84c5acbab56b55339aeb92",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/objects/email_log__x/fields/sent_ts__c.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/objects/email_log__x/fields/sent_ts__c.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 556,
             "modifiedTime": 1552920594403,
             "changeTime": 1552920594403,
-            "contentHash": "7920f486cc333dd27d2f392bc57c84e012d8a34a"
+            "contentHash": "7920f486cc333dd27d2f392bc57c84e012d8a34a",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/objects/email_log__x/fields/subject__c.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/objects/email_log__x/fields/subject__c.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 556,
             "modifiedTime": 1552920594403,
             "changeTime": 1552920594403,
-            "contentHash": "baf3b9a7165e0dde7fd305751d1590aec010d5d9"
+            "contentHash": "baf3b9a7165e0dde7fd305751d1590aec010d5d9",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/objects/events__x/events__x.object-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/objects/events__x/events__x.object-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 1521,
             "modifiedTime": 1552920594409,
             "changeTime": 1552920594409,
-            "contentHash": "9edcfeaeb463365957212c281fb55fd9587f1cee"
+            "contentHash": "9edcfeaeb463365957212c281fb55fd9587f1cee",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/objects/events__x/fields/event__c.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/objects/events__x/fields/event__c.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 547,
             "modifiedTime": 1552920594410,
             "changeTime": 1552920594410,
-            "contentHash": "a33f700d768e118f0db9ef7b6f12e099f7176588"
+            "contentHash": "a33f700d768e118f0db9ef7b6f12e099f7176588",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/objects/events__x/fields/event_ts__c.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/objects/events__x/fields/event_ts__c.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 560,
             "modifiedTime": 1552920594410,
             "changeTime": 1552920594410,
-            "contentHash": "4cb09e62015d89683873fd192909e7310db00a73"
+            "contentHash": "4cb09e62015d89683873fd192909e7310db00a73",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/objects/events__x/fields/message_id__c.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/objects/events__x/fields/message_id__c.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 616,
             "modifiedTime": 1552920594410,
             "changeTime": 1552920594410,
-            "contentHash": "3edbf2dbaa4e23f79a8dc48f12217a3ec17bff2b"
+            "contentHash": "3edbf2dbaa4e23f79a8dc48f12217a3ec17bff2b",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/layouts/events__x-events Layout.layout-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/layouts/events__x-events Layout.layout-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 1353,
             "modifiedTime": 1552920594412,
             "changeTime": 1552920594412,
-            "contentHash": "1f61b386cec62483a5afb63209964aafe1dcbe0c"
+            "contentHash": "1f61b386cec62483a5afb63209964aafe1dcbe0c",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/layouts/email_log__x-email_log Layout.layout-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/layouts/email_log__x-email_log Layout.layout-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 2079,
             "modifiedTime": 1552920594414,
             "changeTime": 1552920594414,
-            "contentHash": "a0418a483d1c63f7983330fefbfc75e2dd0054a1"
+            "contentHash": "a0418a483d1c63f7983330fefbfc75e2dd0054a1",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/layouts/Account-Account Layout.layout-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/layouts/Account-Account Layout.layout-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 9584,
             "modifiedTime": 1552920594419,
             "changeTime": 1552920594419,
-            "contentHash": "ee8c1631608a27021b5882e32a25d8f1f177f439"
+            "contentHash": "ee8c1631608a27021b5882e32a25d8f1f177f439",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/layouts/Account-Account %28Support%29 Layout.layout-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/layouts/Account-Account %28Support%29 Layout.layout-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 9632,
             "modifiedTime": 1552920594423,
             "changeTime": 1552920594423,
-            "contentHash": "01377ad6dece172fc56aeb479b40ff7d7ec9e25f"
+            "contentHash": "01377ad6dece172fc56aeb479b40ff7d7ec9e25f",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/layouts/Account-Account %28Sales%29 Layout.layout-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/layouts/Account-Account %28Sales%29 Layout.layout-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 9584,
             "modifiedTime": 1552920594426,
             "changeTime": 1552920594426,
-            "contentHash": "34b901cb1f1215d9b7be8586fb9d6a65483ec20b"
+            "contentHash": "34b901cb1f1215d9b7be8586fb9d6a65483ec20b",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/layouts/Account-Account %28Marketing%29 Layout.layout-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/layouts/Account-Account %28Marketing%29 Layout.layout-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 9632,
             "modifiedTime": 1552920594430,
             "changeTime": 1552920594430,
-            "contentHash": "deae095998553746c5c7dd4f870a2700ea3c3b38"
+            "contentHash": "deae095998553746c5c7dd4f870a2700ea3c3b38",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/profiles/Custom%3A Sales Profile.profile-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/profiles/Custom%3A Sales Profile.profile-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 12471,
             "modifiedTime": 1552920594440,
             "changeTime": 1552920594440,
-            "contentHash": "fae29a04174b136f2cb1911806b349e62d2fb29b"
+            "contentHash": "fae29a04174b136f2cb1911806b349e62d2fb29b",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/profiles/Custom%3A Support Profile.profile-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/profiles/Custom%3A Support Profile.profile-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 12811,
             "modifiedTime": 1552920594472,
             "changeTime": 1552920594472,
-            "contentHash": "cd6a51e106658a1178868232de2d8e508ce329d6"
+            "contentHash": "cd6a51e106658a1178868232de2d8e508ce329d6",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/profiles/Custom%3A Marketing Profile.profile-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/profiles/Custom%3A Marketing Profile.profile-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 12475,
             "modifiedTime": 1552920594475,
             "changeTime": 1552920594475,
-            "contentHash": "d11a2f2c81d26b9d7faa3ad761cada3bb00b02f1"
+            "contentHash": "d11a2f2c81d26b9d7faa3ad761cada3bb00b02f1",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/dataSources",
         {
-            "state": "u",
             "sourcePath": "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/dataSources",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 96,
             "modifiedTime": 1552920594388,
             "changeTime": 1552920594388,
-            "contentHash": "5ab0e493f5c9fc241042101caca77f44764e3f0a"
+            "contentHash": "5ab0e493f5c9fc241042101caca77f44764e3f0a",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/objects/email_log__x",
         {
-            "state": "u",
             "sourcePath": "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/objects/email_log__x",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 128,
             "modifiedTime": 1552920594401,
             "changeTime": 1552920594401,
-            "contentHash": "fc0a1a7092e4e8752fc5779804cb1f8d07377d64"
+            "contentHash": "fc0a1a7092e4e8752fc5779804cb1f8d07377d64",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/objects/email_log__x/fields",
         {
-            "state": "u",
             "sourcePath": "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/objects/email_log__x/fields",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 320,
             "modifiedTime": 1552920594403,
             "changeTime": 1552920594403,
-            "contentHash": "42417964f392958198e52a6362be23d9f82d394b"
+            "contentHash": "42417964f392958198e52a6362be23d9f82d394b",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/objects/events__x",
         {
-            "state": "u",
             "sourcePath": "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/objects/events__x",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 128,
             "modifiedTime": 1552920594410,
             "changeTime": 1552920594410,
-            "contentHash": "47fd9bee359d78f78383682923018f4f94eb1814"
+            "contentHash": "47fd9bee359d78f78383682923018f4f94eb1814",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/objects/events__x/fields",
         {
-            "state": "u",
             "sourcePath": "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/objects/events__x/fields",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 160,
             "modifiedTime": 1552920594410,
             "changeTime": 1552920594410,
-            "contentHash": "cc8afd6b87cbe67263c747a44778526345d5a44a"
+            "contentHash": "cc8afd6b87cbe67263c747a44778526345d5a44a",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/layouts",
         {
-            "state": "u",
             "sourcePath": "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/layouts",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 256,
             "modifiedTime": 1552920594430,
             "changeTime": 1552920594430,
-            "contentHash": "cc0b30d27d43d359bd2e4d49c3836f4cdc35d5e4"
+            "contentHash": "cc0b30d27d43d359bd2e4d49c3836f4cdc35d5e4",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/remoteSiteSettings/emails_3.remoteSite-meta.xml",
+        {
+            "sourcePath": "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/remoteSiteSettings/emails_3.remoteSite-meta.xml",
+            "isDirectory": false,
+            "size": 260,
+            "modifiedTime": 1552921247654,
+            "changeTime": 1552921247654,
+            "contentHash": "f63232e1fe5310cdfd920058779edb4b8f9b13aa",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/lwc/emailTile",
+        {
+            "sourcePath": "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/lwc/emailTile",
+            "isDirectory": true,
+            "size": 192,
+            "modifiedTime": 1552989174322,
+            "changeTime": 1552989174322,
+            "contentHash": "b41d1888cfd980aaf1a20ba7e905c833b1f41597",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/lwc/emailTile/emailTile.html",
+        {
+            "sourcePath": "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/lwc/emailTile/emailTile.html",
+            "isDirectory": false,
+            "size": 833,
+            "modifiedTime": 1552992460979,
+            "changeTime": 1552992460979,
+            "contentHash": "40061cb5bbfde4decf3fe23ff5160635c8021711",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/lwc/emailTile/emailTile.js",
+        {
+            "sourcePath": "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/lwc/emailTile/emailTile.js",
+            "isDirectory": false,
+            "size": 432,
+            "modifiedTime": 1552995553151,
+            "changeTime": 1552995553151,
+            "contentHash": "b1893b4d9e550cd6ab3ee87ea4d3128a5060113e",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/lwc/emailTile/emailTile.js-meta.xml",
+        {
+            "sourcePath": "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/lwc/emailTile/emailTile.js-meta.xml",
+            "isDirectory": false,
+            "size": 224,
+            "modifiedTime": 1552923573743,
+            "changeTime": 1552923573743,
+            "contentHash": "68393966cc7088c7c416d9cc6021709cc3c94825",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/lwc/emailTile/emailTile.css",
+        {
+            "sourcePath": "/Users/alex.jones/Documents/tasks/project3/email-project/force-app/main/default/lwc/emailTile/emailTile.css",
+            "isDirectory": false,
+            "size": 744,
+            "modifiedTime": 1552990956868,
+            "changeTime": 1552990956868,
+            "contentHash": "6c5bbb02ae91aff41c076751ec103f712de87062",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ]
 ]

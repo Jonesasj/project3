@@ -38,20 +38,21 @@ global class EmailDataSourceConnection extends DataSource.Connection{
         DataSource.Filter filter = context.tableSelection.filter;
         String selected = context.tableSelection.tableSelected;
         String url;
+        String host = 'https://ea3690e3.ngrok.io';
         List<Map<String, Object>> rows;
         if(selected == 'email_log') {
             if(filter != null) {
                 String thisColumnName = filter.columnName;
                 //get a specific email
                 if(thisColumnName != null && thisColumnName.equals('ExternalId')) {
-                    url = 'https://31128a58.ngrok.io' + '/getEmailMessage/' + filter.columnValue;
+                    url = host + '/getEmailMessage/' + filter.columnValue;
                 }
                 else {
-                    url = 'https://31128a58.ngrok.io' + '/getEmails/';
+                    url = host + '/getEmails/';
                 }
             }
             else {
-                url = 'https://31128a58.ngrok.io' + '/getEmails/';
+                url = host + '/getEmails/';
             }
             rows = DataSource.QueryUtils.process(context, ConnectorHelper.getData(url, 'message_id'));
         } else if(selected == 'events') {
@@ -59,13 +60,13 @@ global class EmailDataSourceConnection extends DataSource.Connection{
                 String thisColumnName = filter.columnName;
                 //get a specific event
                 if(thisColumnName != null && thisColumnName.equals('ExternalId')) {
-                    url = 'https://31128a58.ngrok.io' + '/getEmailEvents/' + filter.columnValue;
+                    url = host + '/getEmailEvents/' + filter.columnValue;
                 }
                 else {
-                    url = 'https://31128a58.ngrok.io' + '/getEmailEvents/';
+                    url = host + '/getEmailEvents/';
                 }
             } else {
-                url = 'https://31128a58.ngrok.io' + '/getEmailEvents/';
+                url = host + '/getEmailEvents/';
             }
             rows = DataSource.QueryUtils.process(context, ConnectorHelper.getData(url, 'event_id'));
         }

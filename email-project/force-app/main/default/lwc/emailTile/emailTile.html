@@ -1,0 +1,15 @@
+<template>
+    <lightning-card title={email.subject__c}>
+        <div class="slds-p-horizontal_small">
+            <div class="slds-media">
+                <div class="slds-media__body container">
+                    <p class="slds-m-bottom_xx-small grid-item-1">Sent: {email.sent_ts__c}</p>
+                    <p class="slds-m-bottom_xx-small grid-item-2">Subject: {email.subject__c}</p>
+                    <p class="slds-m-bottom_xx-small grid-item-3">Status: {email.latest_event__c}</p>
+                    <lightning-button variant="brand" label="View Email" class= "grid-item-4"></lightning-button>
+                    <lightning-button variant="brand" label="View Events" onclick={handleClick} class= "grid-item-5"></lightning-button>
+                </div>
+            </div>
+        </div>
+    </lightning-card>
+</template>
