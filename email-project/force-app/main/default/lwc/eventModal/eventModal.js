@@ -1,9 +1,8 @@
-import { LightningElement, track } from 'lwc';
+import { LightningElement, track, api } from 'lwc';
 import getAllEvents from '@salesforce/apex/EmailController.getAllEvents';
 
 export default class EventModal extends LightningElement {
-
-
+    @api emailid;
     @track events;
     
 

@@ -3,7 +3,7 @@ import getALLEmails from '@salesforce/apex/EmailController.getAllEmails';
 
 export default class EmailLog extends LightningElement {
     @api recordId;
-    @track modal = false;
+    @track selectedEmailId = null;
     @track emails;
     connectedCallback() {
         console.log('connected callback');
@@ -21,9 +21,8 @@ export default class EmailLog extends LightningElement {
     }
 
     openModal(event) {
-        console.log(event);
-        console.log(this.modal);
-        this.modal = true;
+        console.log(this.selectedEmailId);
+        this.selectedEmailId = event.detail;
     }
     
     saveMethod() {
@@ -32,7 +31,7 @@ export default class EmailLog extends LightningElement {
     }
 
     handleCancel() {
-        this.modal=false;
+        this.selectedEmailId=null;
     }
 
 }

@@ -9,7 +9,9 @@ export default class EmailTile extends LightningElement {
         /*this.dispatchEvent(new CustomEvent('modal', {
             detail : this.email.ExternalId
         }))*/
-        this.dispatchEvent(new CustomEvent('modal'));
+        this.dispatchEvent(new CustomEvent('modal', {
+            detail : this.email.ExternalId
+        }));
     }
 
 }

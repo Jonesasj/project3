@@ -38,7 +38,7 @@ global class EmailDataSourceConnection extends DataSource.Connection{
         DataSource.Filter filter = context.tableSelection.filter;
         String selected = context.tableSelection.tableSelected;
         String url;
-        String host = 'https://ea3690e3.ngrok.io';
+        String host = 'https://8d62be5d.ngrok.io';
         List<Map<String, Object>> rows;
         if(selected == 'email_log') {
             if(filter != null) {

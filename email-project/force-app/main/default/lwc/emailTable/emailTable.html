@@ -1,0 +1,12 @@
+<template>
+    <lightning-datatable
+        data={data}
+        columns={columns}
+        key-field="id"
+        onrowaction={handleRowAction}
+        onrowselection={getSelectedName}>
+    </lightning-datatable>
+    <template if:true={selectedEmailId}>
+        <c-event-modal oncancel={handleCancel} emailid={selectedEmailId}></c-event-modal>
+    </template>
+</template>
