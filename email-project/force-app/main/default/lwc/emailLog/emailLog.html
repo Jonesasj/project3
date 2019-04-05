@@ -1,3 +1,9 @@
 <template>
-    
+    <lightning-card title="Email History" icon-name="action:email">
+        <lightning-datatable
+            data={data}
+            columns={columns}
+            key-field="id">
+        </lightning-datatable>
+    </lightning-card>
 </template>

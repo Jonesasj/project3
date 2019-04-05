@@ -14,6 +14,7 @@ public class EmailLogHelper {
 
     //takes a customer id and passes the response body on
     public static string getEmails(String customer_id, CalloutHelper ch){
+        system.debug('EmailLogHelper.getEmails');
         HttpResponse response = ch.callout('/getEmails/', 'GET', customer_id);
         String body = response.getBody();
         return body;

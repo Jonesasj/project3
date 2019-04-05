@@ -1,6 +1,7 @@
 public class CalloutHelper {
 
      public HttpResponse callout(String path, String method, String param) {
+        system.debug('CalloutHelper.callout');
         Http http = new Http();
         HttpRequest request = new HttpRequest();
         request.setEndpoint('https://1c7e1a4b.ngrok.io' + path + param);
