@@ -93,7 +93,27 @@ app.get('/getEmailEvents/', (req, res) => {
     });
 });
 
-app.get('/getEmailEvents/:event_id', (req, res) => {
+app.get('/getEmailEvents/:message_id', (req, res) => {
+    console.log('getEmailEvents');
+    var sql = `SELECT * FROM email_event_log WHERE message_id=?`;
+    var message_id = req.params.message_id;
+    var results = {
+        dataList: []
+    };
+    db.all(sql, [message_id], (err, row) => {
+        if(err) {
+            throw err;
+        }
+        row.forEach((row) => {
+            results.dataList.push(row);
+            console.log(row);
+        });
+        console.log(results);
+        res.json(results);
+    });
+});
+
+app.get('/getEmailEvent/:event_id', (req, res) => {
     console.log('getEmailEvents/:event_id');
     var sql = `SELECT * FROM email_event_log WHERE event_id=?`;
     var event_id = req.params.event_id;
