@@ -1,9 +1,6 @@
 @isTest
-public class CalloutTest {
-
-    @isTest static void sfdxTest() {
-        system.assertEquals(1, 1);
-    }
+public class CalloutHelperTest {
+    
 
     @isTest static void testGetEmails() {
         StaticResourceCalloutMock mock = new StaticResourceCalloutMock();
@@ -13,7 +10,8 @@ public class CalloutTest {
 
         Test.setMock(HttpCalloutMock.class, mock);
 
-        HttpResponse result = Callout.callout('/getEmails/', 'GET', '1');
+        CalloutHelper testCalloutHelper = new CalloutHelper();
+        HttpResponse result = testCalloutHelper.callout('/getEmails/', 'GET', '1');
 
         System.assertNotEquals(null, result, 'Callout returned null response');
 
@@ -22,9 +20,9 @@ public class CalloutTest {
         //result should contain 1 item
 
         Map<String, Object> results = (Map<String, Object>) JSON.deserializeUntyped(result.getBody());
-        List<Object> emails = (List<Object>) results.get('emails');
+        List<Object> dataList = (List<Object>) results.get('dataList');
 
-        System.assertEquals(1, emails.size(), 'There should be only 1 email');
+        System.assertEquals(1, dataList.size(), 'There should be only 1 email');
         //changed
     }
 }
